@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7e2da2527c64ce41a9834e025cfd9e0, type: 3}
+  m_Name: LevelData
+  m_EditorClassIdentifier: 
+  levels:
+  - map: {fileID: 4296359672858349591, guid: ea18104d370c79744bd2247a90057b61, type: 3}
+    playerSpawnPosition: {x: -1, y: 1}
+  - map: {fileID: 8707123640644994749, guid: ce774dce73362684bb7d9e55551d7bb1, type: 3}
+    playerSpawnPosition: {x: 1.5, y: 1}
+  - map: {fileID: 0}
+    playerSpawnPosition: {x: 0, y: 0}
+  - map: {fileID: 0}
+    playerSpawnPosition: {x: 0, y: 0}
+  - map: {fileID: 0}
+    playerSpawnPosition: {x: 0, y: 0}
+  - map: {fileID: 0}
+    playerSpawnPosition: {x: 0, y: 0}
+  - map: {fileID: 0}
+    playerSpawnPosition: {x: 0, y: 0}
+  - map: {fileID: 0}
+    playerSpawnPosition: {x: 0, y: 0}
+  - map: {fileID: 0}
+    playerSpawnPosition: {x: 0, y: 0}
+  - map: {fileID: 0}
+    playerSpawnPosition: {x: 0, y: 0}
+  - map: {fileID: 0}
+    playerSpawnPosition: {x: 0, y: 0}
+  - map: {fileID: 0}
+    playerSpawnPosition: {x: 0, y: 0}
+  - map: {fileID: 0}
+    playerSpawnPosition: {x: 0, y: 0}
+  - map: {fileID: 0}
+    playerSpawnPosition: {x: 0, y: 0}
+  - map: {fileID: 0}
+    playerSpawnPosition: {x: 0, y: 0}
