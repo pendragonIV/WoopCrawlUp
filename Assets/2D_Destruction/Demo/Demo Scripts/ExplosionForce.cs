@@ -7,7 +7,8 @@ public class ExplosionForce : MonoBehaviour {
 	public float force = 50;
 	public float radius = 5;
 	public float upliftModifer = 5;
-	
+    [SerializeField]
+    LayerMask head;
     /// <summary>
     /// create an explosion force
     /// </summary>
@@ -24,7 +25,7 @@ public class ExplosionForce : MonoBehaviour {
 	private IEnumerator waitAndExplode(){
 		yield return new WaitForFixedUpdate();
 		
-		Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position,radius);
+		Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position,radius, head);
      
 		foreach(Collider2D coll in colliders){
 			if(coll.GetComponent<Rigidbody2D>()&&coll.name!="hero"){

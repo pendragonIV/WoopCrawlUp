@@ -49,6 +49,12 @@ public class Explodable : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+
+        foreach (GameObject frag in fragments)
+        {
+            Destroy(frag, 1f);
+        }
     }
     /// <summary>
     /// Creates fragments and then disables them
@@ -109,6 +115,7 @@ public class Explodable : MonoBehaviour
                 p.layer = LayerMask.NameToLayer(fragmentLayer);
                 p.GetComponent<Renderer>().sortingLayerName = sortingLayerName;
                 p.GetComponent<Renderer>().sortingOrder = orderInLayer;
+                p.GetComponent<Collider2D>().isTrigger = true;
             }
         }
 

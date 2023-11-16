@@ -13,33 +13,23 @@ MonoBehaviour:
   m_Name: LevelData
   m_EditorClassIdentifier: 
   levels:
+  - map: {fileID: 1573135179903210388, guid: c922bdc4d7c050e4db315a1c2ff9a9a7, type: 3}
+    playerSpawnPosition: {x: -2, y: 0}
   - map: {fileID: 4296359672858349591, guid: ea18104d370c79744bd2247a90057b61, type: 3}
     playerSpawnPosition: {x: -1, y: 1}
   - map: {fileID: 8707123640644994749, guid: ce774dce73362684bb7d9e55551d7bb1, type: 3}
     playerSpawnPosition: {x: 1.5, y: 1}
-  - map: {fileID: 0}
-    playerSpawnPosition: {x: 0, y: 0}
-  - map: {fileID: 0}
-    playerSpawnPosition: {x: 0, y: 0}
-  - map: {fileID: 0}
-    playerSpawnPosition: {x: 0, y: 0}
-  - map: {fileID: 0}
-    playerSpawnPosition: {x: 0, y: 0}
-  - map: {fileID: 0}
-    playerSpawnPosition: {x: 0, y: 0}
-  - map: {fileID: 0}
-    playerSpawnPosition: {x: 0, y: 0}
-  - map: {fileID: 0}
-    playerSpawnPosition: {x: 0, y: 0}
-  - map: {fileID: 0}
-    playerSpawnPosition: {x: 0, y: 0}
-  - map: {fileID: 0}
-    playerSpawnPosition: {x: 0, y: 0}
-  - map: {fileID: 0}
-    playerSpawnPosition: {x: 0, y: 0}
-  - map: {fileID: 0}
-    playerSpawnPosition: {x: 0, y: 0}
-  - map: {fileID: 0}
-    playerSpawnPosition: {x: 0, y: 0}
-  - map: {fileID: 0}
-    playerSpawnPosition: {x: 0, y: 0}
+  - map: {fileID: 1928779157721069554, guid: 9d6f418710430af498ddb2993aaa4144, type: 3}
+    playerSpawnPosition: {x: -0.5, y: -1}
+  - map: {fileID: 8215487451753743370, guid: ea6e132153860e8459b5db26e31e45b5, type: 3}
+    playerSpawnPosition: {x: 0, y: 0.3}
+  - map: {fileID: 5921732936354092003, guid: 36e6a207bdccaee4e87b4520d278d5eb, type: 3}
+    playerSpawnPosition: {x: 2, y: -2}
+  - map: {fileID: 3505453246850378934, guid: 2efe6247e62399c4bbfeda6a246e0183, type: 3}
+    playerSpawnPosition: {x: 1.5, y: 1.8}
+  - map: {fileID: 7265994603219462975, guid: 1ca5cc0be64eb454abdbd0edcfe06863, type: 3}
+    playerSpawnPosition: {x: -0.5, y: -0.5}
+  - map: {fileID: 2926920912023413418, guid: ff6844e7649167a468550b3588ea55d1, type: 3}
+    playerSpawnPosition: {x: -1.5, y: -1.5}
+  - map: {fileID: 6571507509532762308, guid: b2d6260feb404674fa4c154f95bb1b23, type: 3}
+    playerSpawnPosition: {x: 0.5, y: 1}

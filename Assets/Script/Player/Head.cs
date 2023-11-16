@@ -26,7 +26,7 @@ public class Head : MonoBehaviour
                 }
             }
         }
-        else
+        else if (collision.gameObject.CompareTag("Tail"))   
         {
             if (GameManager.instance.playerScript.GetLastMoveDirection() == Vector2.left || GameManager.instance.playerScript.GetLastMoveDirection() == Vector2.right)
             {
@@ -91,6 +91,7 @@ public class Head : MonoBehaviour
         if (collision.gameObject.CompareTag("Destination"))
         {
             OnReachDestination?.Invoke();
+
         }
     }
 
