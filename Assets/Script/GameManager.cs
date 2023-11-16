@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
     public Player playerScript;
     public GameScene gameScene;
     public GameObject player;
+    public GameObject tutorHand;
     #region Game status
     [SerializeField]
     private bool isGameWin = false;

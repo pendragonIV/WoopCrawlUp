@@ -178,6 +178,13 @@ public class Player : MonoBehaviour
                 }
             case PlayerState.Moving:
                 {
+                    if(!GameManager.instance.IsGameWin() || !GameManager.instance.IsGameLose())
+                    {
+                        if(GameManager.instance.tutorHand != null)
+                        {
+                            Destroy(GameManager.instance.tutorHand);
+                        }
+                    }
                     isCanControl = false;
                     Moving(moveDirection);
                     if(moveDirection == Vector2.left || moveDirection == Vector2.right)
