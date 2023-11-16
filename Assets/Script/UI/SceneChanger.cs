@@ -43,7 +43,8 @@ public class SceneChanger : MonoBehaviour
         }
         else
         {
-            Debug.Log("No more levels");
+            LevelManager.instance.currentLevelIndex = (int)Random.Range(4,LevelManager.instance.levelData.GetLevels().Count);
+            StartCoroutine(ChangeScene(GAME));
         }
     }
 
